@@ -1,0 +1,35 @@
+#Make sure to inform in whatsapp group which part you are doing.
+
+[DONE] 1) classes for Customer , Cars , rental table. Cars class being abstract.
+
+[DONE] 2)(a) function to take input data from user and insert into Customer table, providing user with a unique Cust_id
+    input format in cmd line will be   ->  java Main -register <name> <address> <mobile no>
+
+[DONE] 2)(b) Function to make a booking using Cust_id, Car_no.,start (date), end (date) 
+    input format in cmd line will be   ->  java Main -booking <Cust_id> <Car_no> <start> <end>
+
+2)(c) Function to cancel booking using Cust_id and Car_no. 
+    input format in cmd line will be   ->  java Main -cancel <Cust_id> <Car_no>
+    
+[Done] 3) Function to search and print Customer data using first name.
+    input format in cmd line will be   ->  java Main -searchFirstName <FirstName>
+    
+4) Function to find available cars with Charges less than a certain amount. 
+  For example, if the user want to find avaible cars for renting which price is less that 1000 rs. per day
+    input format in cmd line will be   ->  java Main -searchLessThanAmount <Amount>
+    
+[OPTIONAL] 5) 3 sort functions  a) sorting and displaying Customer table using (Cust_ID) 
+                     b) sorting and displaying Cars table using (Car_no)
+                     c) sorting and displaying rental table using (Cust_ID)
+                     
+                     input format in cmd line will be   ->  java Main -SortCustomer
+                     input format in cmd line will be   ->  java Main -sortCars
+                     input format in cmd line will be   ->  java Main -sortRental
+                  
+[OPTIONAL] 6) Function that provides number of entries in customer table (using cust_id) and cars table (using car_no.)  (use sql COUNT)
+        input format in cmd line will be   ->  java Main -count <tableName>
+
+[OPTIONAL] 7) Function to find sum,average,standard - deviation for charges and fee total
+        input format in cmd line will be   ->  java Main -Sum <tableName>
+        input format in cmd line will be   ->  java Main -avg <tableName>
+        input format in cmd line will be   ->  java Main -stdDev <tableName>
